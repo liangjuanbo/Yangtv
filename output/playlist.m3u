@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_CN.xml"
-# 由 iptv-auto 自动生成 | 更新时间: 2026-10-15 14:39:31 (UTC+8)
+# 由 iptv-auto 自动生成 | 更新时间: 2026-10-15 20:16:54 (UTC+8)
 #EXTINF:-1 tvg-name="CCTV+ 1" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 2" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News",CCTV+ 2
