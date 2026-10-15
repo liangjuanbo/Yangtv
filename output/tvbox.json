@@ -1,0 +1,239 @@
+{
+  "name": "我的自动直播源",
+  "version": 1,
+  "updateTime": "2026-10-15 14:39:31",
+  "lives": [
+    {
+      "name": "自动聚合直播",
+      "type": 0,
+      "url": "https://liangjuanbo.github.io/Yangtv/playlist.m3u",
+      "playerType": 1,
+      "epg": "https://epg.pw/xmltv/epg_CN.xml",
+      "channels": [
+        {
+          "name": "CCTV+ 1",
+          "urls": [
+            "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV+ 2",
+          "urls": [
+            "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-1",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv1hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-1 HD",
+          "urls": [
+            "http://69.30.245.50/live/cctv1.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-10",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv10hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-11",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv11hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-12",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv12hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-13",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv13hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-14 HD",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv14hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-15",
+          "urls": [
+            "https://xykt-fix.github.io/play/a02e/index.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-15 音乐",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv15hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-16 HD",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv16hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-17 HD",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv17hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-2",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv2hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-3",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv3hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-4 中文国际",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv4hd.m3u8",
+            "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-4K HD",
+          "urls": [
+            "http://198.204.240.250:82/live/cctv4k.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-6 HD",
+          "urls": [
+            "http://69.30.245.50/live/cctv6.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-7",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv7hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-8",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv8hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-8K HD",
+          "urls": [
+            "http://192.151.150.154/live/cctv8k.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-9",
+          "urls": [
+            "https://xykt-fix.github.io/Y77.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-9 纪录",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv9hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-Billiards",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Culture of Quality SD",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Golf & Tennis",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Health",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/wsjk.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Nostalgia Theater",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/hjjc.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Storm Football",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Storm Music",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/fyyy.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Storm Theater",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-The First Theater",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Weapon & Technology",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-Women's Fashion SD",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "CCTV-World Geography SD",
+          "urls": [
+            "http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "河北4K",
+          "urls": [
+            "https://event.pull.hebtv.com:443/live/live101.m3u8"
+          ]
+        },
+        {
+          "name": "苏州4K",
+          "urls": [
+            "https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8"
+          ]
+        }
+      ]
+    }
+  ]
+}
