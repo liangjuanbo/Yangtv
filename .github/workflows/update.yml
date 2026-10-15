@@ -1,0 +1,70 @@
+name: 自动更新 IPTV 直播源
+
+on:
+  schedule:
+    # 每周一 00:00 UTC（北京时间 08:00）自动跑一次
+    - cron: '0 0 * * 1'
+  workflow_dispatch: {}   # 也可以手动点按钮触发
+  push:
+    paths:
+      - 'scripts/aggregate.py'   # 改了脚本自动跑
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: iptv-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行聚合脚本
+        env:
+          SELF_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/playlist.m3u
+        run: python scripts/aggregate.py
+        continue-on-error: true
+
+      - name: 检查产物
+        id: check
+        run: |
+          if [ -f output/playlist.m3u ] && [ -s output/playlist.m3u ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+            echo "生成成功，行数：$(wc -l < output/playlist.m3u)"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "未生成产物"
+          fi
+
+      - name: 提交更新
+        if: steps.check.outputs.ok == 'true'
+        run: |
+          git config user.name "iptv-auto-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          if git diff --staged --quiet; then
+            echo "内容无变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新直播源 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: 部署到 GitHub Pages
+        if: steps.check.outputs.ok == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
+          keep_files: false
