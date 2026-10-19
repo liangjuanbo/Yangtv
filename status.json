@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15 20:16:54",
-  "channelCount": 37,
-  "lineCount": 38,
+  "updatedAt": "2026-10-19 10:25:11",
+  "channelCount": 35,
+  "lineCount": 36,
   "channels": {
     "CCTV+ 1": 1,
     "CCTV+ 2": 1,
@@ -12,7 +12,6 @@
     "CCTV-12": 1,
     "CCTV-13": 1,
     "CCTV-14 HD": 1,
-    "CCTV-15": 1,
     "CCTV-15 音乐": 1,
     "CCTV-16 HD": 1,
     "CCTV-17 HD": 1,
@@ -20,7 +19,6 @@
     "CCTV-3": 1,
     "CCTV-4 中文国际": 2,
     "CCTV-4K HD": 1,
-    "CCTV-6 HD": 1,
     "CCTV-7": 1,
     "CCTV-8": 1,
     "CCTV-8K HD": 1,
