@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_CN.xml"
-# 由 iptv-auto 自动生成 | 更新时间: 2026-10-26 10:19:36 (UTC+8)
+# 由 iptv-auto 自动生成 | 更新时间: 2026-11-02 11:24:52 (UTC+8)
 #EXTINF:-1 tvg-name="CCTV+ 1" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 2" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News",CCTV+ 2
@@ -30,8 +30,12 @@ http://74.91.26.218:82/live/cctv2hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4 中文国际" tvg-logo="https://i.imgur.com/ovUSVEQ.png" group-title="China",CCTV-4 中文国际
 http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-4 中文国际" tvg-logo="https://i.imgur.com/kx8metk.png" group-title="China",CCTV-4 中文国际
+https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV-4K HD" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="General",CCTV-4K HD
 http://198.204.240.250:82/live/cctv4k.m3u8
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="Sports",CCTV-5
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 #EXTINF:-1 tvg-name="CCTV-6 HD" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="Movies",CCTV-6 HD
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Education",CCTV-7
