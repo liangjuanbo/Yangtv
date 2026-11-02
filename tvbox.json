@@ -1,7 +1,7 @@
 {
   "name": "我的自动直播源",
   "version": 1,
-  "updateTime": "2026-10-26 10:19:36",
+  "updateTime": "2026-11-02 11:24:52",
   "lives": [
     {
       "name": "自动聚合直播",
@@ -97,13 +97,20 @@
         {
           "name": "CCTV-4 中文国际",
           "urls": [
-            "http://74.91.26.218:82/live/cctv4hd.m3u8"
+            "http://74.91.26.218:82/live/cctv4hd.m3u8",
+            "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8"
           ]
         },
         {
           "name": "CCTV-4K HD",
           "urls": [
             "http://198.204.240.250:82/live/cctv4k.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-5",
+          "urls": [
+            "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p"
           ]
         },
         {
