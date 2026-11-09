@@ -1,7 +1,7 @@
 {
   "name": "我的自动直播源",
   "version": 1,
-  "updateTime": "2026-11-02 11:24:52",
+  "updateTime": "2026-11-09 11:40:57",
   "lives": [
     {
       "name": "自动聚合直播",
@@ -56,6 +56,12 @@
           "name": "CCTV-13",
           "urls": [
             "http://74.91.26.218:82/live/cctv13hd.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV-13 HD",
+          "urls": [
+            "http://go.bkpcp.top/mg/cctv13"
           ]
         },
         {
