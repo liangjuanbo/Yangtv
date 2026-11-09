@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_CN.xml"
-# 由 iptv-auto 自动生成 | 更新时间: 2026-11-02 11:24:52 (UTC+8)
+# 由 iptv-auto 自动生成 | 更新时间: 2026-11-09 11:40:57 (UTC+8)
 #EXTINF:-1 tvg-name="CCTV+ 1" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="News",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 2" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="News",CCTV+ 2
@@ -16,6 +16,8 @@ http://74.91.26.218:82/live/cctv11hd.m3u8
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News",CCTV-13
 http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-13 HD" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="News",CCTV-13 HD
+http://go.bkpcp.top/mg/cctv13
 #EXTINF:-1 tvg-name="CCTV-14 HD" tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="Kids",CCTV-14 HD
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Music",CCTV-15

@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-02 11:24:52",
-  "channelCount": 36,
-  "lineCount": 37,
+  "updatedAt": "2026-11-09 11:40:57",
+  "channelCount": 37,
+  "lineCount": 38,
   "channels": {
     "CCTV+ 1": 1,
     "CCTV+ 2": 1,
@@ -11,6 +11,7 @@
     "CCTV-11": 1,
     "CCTV-12": 1,
     "CCTV-13": 1,
+    "CCTV-13 HD": 1,
     "CCTV-14 HD": 1,
     "CCTV-15": 1,
     "CCTV-16 HD": 1,
