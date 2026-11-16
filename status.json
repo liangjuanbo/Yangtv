@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-09 11:40:57",
+  "updatedAt": "2026-11-16 11:50:59",
   "channelCount": 37,
-  "lineCount": 38,
+  "lineCount": 37,
   "channels": {
     "CCTV+ 1": 1,
     "CCTV+ 2": 1,
@@ -18,7 +18,6 @@
     "CCTV-17 HD": 1,
     "CCTV-2": 1,
     "CCTV-3": 1,
-    "CCTV-4 中文国际": 2,
     "CCTV-4K HD": 1,
     "CCTV-5": 1,
     "CCTV-6 HD": 1,
@@ -39,6 +38,7 @@
     "CCTV-Weapon & Technology": 1,
     "CCTV-Women's Fashion SD": 1,
     "CCTV-World Geography SD": 1,
-    "河北4K": 1
+    "河北4K": 1,
+    "苏州4K": 1
   }
 }
